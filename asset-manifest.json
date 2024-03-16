@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Broed/static/css/main.ca57846c.css",
-    "main.js": "/Broed/static/js/main.7ae079c8.js",
+    "main.css": "/Broed/static/css/main.7e6d8411.css",
+    "main.js": "/Broed/static/js/main.81bdf50c.js",
     "index.html": "/Broed/index.html",
-    "main.ca57846c.css.map": "/Broed/static/css/main.ca57846c.css.map",
-    "main.7ae079c8.js.map": "/Broed/static/js/main.7ae079c8.js.map"
+    "main.7e6d8411.css.map": "/Broed/static/css/main.7e6d8411.css.map",
+    "main.81bdf50c.js.map": "/Broed/static/js/main.81bdf50c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca57846c.css",
-    "static/js/main.7ae079c8.js"
+    "static/css/main.7e6d8411.css",
+    "static/js/main.81bdf50c.js"
   ]
 }
