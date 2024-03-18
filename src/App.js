@@ -13,10 +13,20 @@ function App() {
     } else {
       breadsNeeded = value / 10 * 3; // Calculate based on formula
       const remainder = breadsNeeded % 1; // Get decimal part
-      if (remainder > 0.2) {
-        breadsNeeded = Math.ceil(breadsNeeded); // Round up if decimal part > 0.2
+      if (value > 10) {
+        if (remainder > 0.4) {
+          breadsNeeded = Math.ceil(breadsNeeded); // Round up if decimal part > 0.2
+        }
+        else {
+          breadsNeeded = Math.floor(breadsNeeded); // Round down otherwise
+        }
       } else {
-        breadsNeeded = Math.floor(breadsNeeded); // Round down otherwise
+        if (remainder > 0.4) {
+          breadsNeeded = Math.ceil(breadsNeeded); // Round up if decimal part > 0.2
+        }
+        else {
+          breadsNeeded = Math.floor(breadsNeeded); // Round down otherwise
+        }
       }
     }
     setNumberOfBreads(breadsNeeded);
