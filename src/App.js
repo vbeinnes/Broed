@@ -15,13 +15,13 @@ function App() {
       const remainder = breadsNeeded % 1; // Get decimal part
       if (value > 10) {
         if (remainder > 0.4) {
-          breadsNeeded = Math.ceil(breadsNeeded); // Round up if decimal part > 0.2
+          breadsNeeded = Math.ceil(breadsNeeded); // Round up if decimal part > 0.4
         }
         else {
           breadsNeeded = Math.floor(breadsNeeded); // Round down otherwise
         }
       } else {
-        if (remainder > 0.4) {
+        if (remainder > 0.2) {
           breadsNeeded = Math.ceil(breadsNeeded); // Round up if decimal part > 0.2
         }
         else {
