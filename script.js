@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       }
     }
-    numberOfBreadsText.textContent = `Du bør kjøpe ${breadsNeeded} brød.`;
+    numberOfBreadsText.textContent = `Du bør kjøpe ${breadsNeeded} brød 🍞`;
   };
 
   numberOfPeopleInput.addEventListener("input", function() {
