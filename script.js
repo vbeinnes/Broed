@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
   };
 
   numberOfPeopleInput.addEventListener("input", function() {
-    numberOfPeopleText.textContent = this.value;
+    numberOfPeopleText.textContent = `${this.value} 🧑🏻`;
     calculateBreadsNeeded(parseInt(this.value));
   });
 
